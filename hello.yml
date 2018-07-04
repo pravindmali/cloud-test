@@ -4,3 +4,6 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+      
+    - name: ping
+      ping:
