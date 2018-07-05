@@ -2,5 +2,5 @@
   hosts: all
   tasks:
     
-   - name: ping
+    - name: ping
       mydate:
