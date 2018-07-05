@@ -4,7 +4,7 @@ import datetime
 import json
 
 def main():
-module = AnsibleModule()
+    module = AnsibleModule()
 
 date = str(datetime.datetime.now())
 print json.dumps({
